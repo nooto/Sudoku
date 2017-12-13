@@ -141,7 +141,7 @@ typedef enum :NSInteger{
     int celWidth = (frame.size.width-10)/6;
     for (int i = 0; i<11; i++) {
         UIButton *myCreateButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        myCreateButton.frame = CGRectMake(10+i%6*celWidth, frame.size.width+25+(i/6)*75,celWidth-5, 40);
+        myCreateButton.frame = CGRectMake(10+i%6*celWidth, frame.size.width+15+(i/6)*40,celWidth-5, 35);
         [myCreateButton setBackgroundColor:[UIColor grayColor]];
         myCreateButton.titleLabel.font =  [UIFont systemFontOfSize:15];
         myCreateButton.layer.cornerRadius = 10.0f;

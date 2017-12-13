@@ -22,7 +22,8 @@
     [self createView];
 }
 - (void)createView{
-    SudoView *sudoView = [[SudoView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width + 150)];
+    SudoView *sudoView = [[SudoView alloc]initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, self.view.frame.size.width + 40)];
+//    sudoView.backgroundColor = [UIColor redColor];
     [self.view addSubview:sudoView];
     
     
